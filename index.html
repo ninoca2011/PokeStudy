@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PokeStudy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<span>🧠</span> PokeStudy
+</div>
+
+<nav>
+<button class="active" onclick="mostrarPagina('inicio', this)">⌂ Início</button>
+<button onclick="mostrarPagina('evolucao', this)">↗ Evolução</button>
+<button onclick="mostrarPagina('categorias', this)">▦ Categorias</button>
+<button onclick="mostrarPagina('ranking', this)">♛ Ranking</button>
+</nav>
+
+<div class="aluno">
+<div>
+<strong>Lucas Ferreira</strong>
+<small>Aluno • Nº 8</small>
+</div>
+<div class="avatar">LF</div>
+</div>
+</header>
+
+
+<main>
+
+<section id="inicio" class="pagina ativa">
+
+<div class="principal">
+
+<div class="pokemon-card">
+<div class="top-card">
+<div>
+<small>SEU POKÉMON</small>
+<h1>Charmeleon</h1>
+<span class="tipo">FOGO</span>
+</div>
+
+<span class="nivel">Lv. 32</span>
+</div>
+
+<div class="pokemon">🔥</div>
+
+<div class="xp-text">
+<span>XP para Charizard</span>
+<strong>3.240 / 4.000</strong>
+</div>
+
+<div class="barra">
+<div style="width:81%"></div>
+</div>
+
+<small class="cinza">
+Faltam 760 XP • 62% concluído
+</small>
+</div>
+
+
+<div class="desempenho">
+
+<div class="titulo">
+<div>
+<h2>Desempenho Geral</h2>
+<p>Seu desempenho nas principais áreas.</p>
+</div>
+
+<strong class="verde">↗ +12% este mês</strong>
+</div>
+
+<div class="desempenho-conteudo">
+
+<div class="grafico">
+<div class="hex hex1"></div>
+<div class="hex hex2"></div>
+<div class="hex hex3"></div>
+
+<div class="dados"></div>
+
+<span class="cima">Tarefas</span>
+<span class="direita">Provas</span>
+<span class="baixo">Comportamento</span>
+<span class="esquerda">Ética</span>
+</div>
+
+
+<div class="notas">
+
+<div class="nota">
+<span>✓ Tarefas</span>
+<b>85%</b>
+<div><i style="width:85%"></i></div>
+</div>
+
+<div class="nota">
+<span>◉ Provas</span>
+<b>72%</b>
+<div><i class="azul" style="width:72%"></i></div>
+</div>
+
+<div class="nota">
+<span>▣ Trabalhos</span>
+<b>90%</b>
+<div><i class="laranja" style="width:90%"></i></div>
+</div>
+
+<div class="nota">
+<span>♡ Comportamento</span>
+<b>78%</b>
+<div><i class="rosa" style="width:78%"></i></div>
+</div>
+
+<div class="nota">
+<span>▣ Frequência</span>
+<b>95%</b>
+<div><i style="width:95%"></i></div>
+</div>
+
+<div class="nota">
+<span>♧ Ética</span>
+<b>88%</b>
+<div><i style="width:88%"></i></div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="estatisticas">
+
+<div>
+<small>⚡ Total XP</small>
+<strong>3.240</strong>
+</div>
+
+<div>
+<small>🔥 Sequência</small>
+<strong>7 dias</strong>
+</div>
+
+<div>
+<small>✓ Tarefas</small>
+<strong>85<small>/100</small></strong>
+</div>
+
+<div>
+<small>◉ Provas</small>
+<strong>72<small>/100</small></strong>
+</div>
+
+<div>
+<small>▣ Trabalhos</small>
+<strong>90<small>/100</small></strong>
+</div>
+
+</div>
+
+
+<div class="inferior">
+
+<div class="caixa">
+<div class="titulo">
+<h2>Resumo do boletim</h2>
+<span>9º ano</span>
+</div>
+
+<div class="materia">
+<span>Matemática</span>
+<b>8,7</b>
+<div><i style="width:87%"></i></div>
+</div>
+
+<div class="materia">
+<span>Português</span>
+<b>9,2</b>
+<div><i style="width:92%"></i></div>
+</div>
+
+<div class="materia">
+<span>Ciências</span>
+<b>8,9</b>
+<div><i style="width:89%"></i></div>
+</div>
+
+<div class="materia">
+<span>História</span>
+<b>9,0</b>
+<div><i style="width:90%"></i></div>
+</div>
+</div>
+
+
+<div class="caixa">
+<div class="titulo">
+<h2>Conquistas recentes</h2>
+<span>Ver todas →</span>
+</div>
+
+<div class="conquista">
+<div class="icone">🏆</div>
+<div>
+<strong>Semana perfeita</strong>
+<small>7 dias mantendo a sequência</small>
+</div>
+<b>+200 XP</b>
+</div>
+
+<div class="conquista">
+<div class="icone">📚</div>
+<div>
+<strong>Estudante dedicado</strong>
+<small>10 tarefas entregues</small>
+</div>
+<b>+150 XP</b>
+</div>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- EVOLUÇÃO -->
+<section id="evolucao" class="pagina">
+
+<h1>Evolução</h1>
+<p>Acompanhe seu desempenho ao longo do tempo.</p>
+
+<div class="caixa grafico-barras">
+
+<h2>Desempenho mensal</h2>
+
+<div class="barras">
+
+<div>
+<b>68%</b>
+<i style="height:54%"></i>
+<span>Jun</span>
+</div>
+
+<div>
+<b>74%</b>
+<i style="height:63%"></i>
+<span>Jul</span>
+</div>
+
+<div>
+<b>82%</b>
+<i style="height:76%"></i>
+<span>Ago</span>
+</div>
+
+<div>
+<b>88%</b>
+<i style="height:86%"></i>
+<span>Set</span>
+</div>
+
+<div>
+<b>91%</b>
+<i style="height:92%"></i>
+<span>Out</span>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<section id="categorias" class="pagina">
+
+<h1>Categorias</h1>
+<p>Veja suas notas separadas por categoria.</p>
+
+<div class="categorias">
+
+<div class="categoria">
+<span>✓</span>
+<h2>Tarefas</h2>
+<strong>85/100</strong>
+<p>Excelente ritmo de entrega.</p>
+</div>
+
+<div class="categoria">
+<span>◉</span>
+<h2>Provas</h2>
+<strong>72/100</strong>
+<p>Continue revisando os conteúdos.</p>
+</div>
+
+<div class="categoria">
+<span>▣</span>
+<h2>Trabalhos</h2>
+<strong>90/100</strong>
+<p>Ótimo desempenho.</p>
+</div>
+
+<div class="categoria">
+<span>♡</span>
+<h2>Comportamento</h2>
+<strong>78/100</strong>
+<p>Bom comportamento em sala.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="ranking" class="pagina">
+
+<h1>Ranking</h1>
+<p>Classificação da turma por XP.</p>
+
+<div class="caixa ranking">
+
+<div>
+<span>🥇</span>
+<b>1º</b>
+<strong>Lucas Ferreira</strong>
+<em>3.240 XP</em>
+</div>
+
+<div>
+<span>🥈</span>
+<b>2º</b>
+<strong>Mariana Souza</strong>
+<em>3.080 XP</em>
+</div>
+
+<div>
+<span>🥉</span>
+<b>3º</b>
+<strong>Gabriel Lima</strong>
+<em>2.940 XP</em>
+</div>
+
+<div>
+<span>4</span>
+<b>4º</b>
+<strong>Beatriz Alves</strong>
+<em>2.760 XP</em>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+PokeStudy • Boletim Digital • Projeto escolar
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
